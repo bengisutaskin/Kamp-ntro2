@@ -6,6 +6,7 @@ namespace Metotlar1
     {
         static void Main(string[] args)
         {
+            
             Urun urun1 = new Urun();
             urun1.Adi = "Elma";
             urun1.Fiyati = 15;
@@ -39,17 +40,6 @@ namespace Metotlar1
             sepetManager.Ekle2("Armut", "Yeşil armut", 12, 10);
             sepetManager.Ekle2("Elma", "Yeşil elma", 12, 9);
             sepetManager.Ekle2("Karpuz", "Diyarbakır Karpuzu", 12, 8);
-
-
-
-
-
-
-
-
-
-
-
 
         }
 
